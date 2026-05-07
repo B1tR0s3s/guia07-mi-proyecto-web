@@ -27,3 +27,47 @@ button {
 button:hover {
     background-color: #2980b9;
 }
+
+form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+textarea,
+button {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input,
+textarea {
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: none;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
