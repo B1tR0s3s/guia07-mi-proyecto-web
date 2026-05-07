@@ -18,10 +18,22 @@
 
     <p id="resultado"></p>
     <h2>Formulario de contacto</h2>
-    <input type="email" id="correo" placeholder="Ingrese su correo" />
-    <button onclick="validarCorreo()">Validar correo</button>
-    <p id="mensajeCorreo"></p>
 
+    <form id="formularioContacto">
+      <input type="text" id="apellido" placeholder="Ingrese su apellido" />
+
+      <input type="tel" id="telefono" placeholder="Ingrese su teléfono" />
+
+      <input type="email" id="correo" placeholder="Ingrese su correo" />
+
+      <textarea
+        id="mensaje"
+        placeholder="Escriba su mensaje"
+        rows="5"
+      ></textarea>
+
+      <button type="submit">Enviar formulario</button>
+    </form>
     <!-- Enlace al archivo JavaScript -->
     <script src="script.js"></script>
   </body>
